@@ -12,6 +12,9 @@ namespace Protocolo
         public enum IdentificadorListado { Conectado,Desconectado,Aceptar,Negar,Solicitar,Tuinfo,Actualiza, Null }
     public class Paquete
         {
+        /// <summary>
+        /// New Commit
+        /// </summary>
             private IdentificadorDato idDato; private IdentificadorListado identi; private string nombre; private string mensaje;
             public IdentificadorDato IdentificadorChat { get { return idDato; } set { idDato = value; } }
         //para identificar si es conectado o desconectado
